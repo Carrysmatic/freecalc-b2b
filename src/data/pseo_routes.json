@@ -1,0 +1,594 @@
+{
+  "en": [
+    {
+      "slug": "stripe-us-fee-calculator",
+      "processorId": "stripe-us",
+      "defaultAmount": 1000,
+      "title": "Stripe (US) Fee & Reverse Gross-Up Calculator (2026)",
+      "description": "Calculate exact Stripe (US) processing fees (2.90% + $0.30), international card surcharges, and exact invoice gross-up in USD."
+    },
+    {
+      "slug": "stripe-us-fee-on-100-usd",
+      "processorId": "stripe-us",
+      "defaultAmount": 100,
+      "title": "Stripe (US) Fee on $100 USD — Net Payout & Gross-Up",
+      "description": "How much does Stripe (US) take from $100? See exact net payout and how much to charge to receive $100 net after fees."
+    },
+    {
+      "slug": "stripe-us-fee-on-250-usd",
+      "processorId": "stripe-us",
+      "defaultAmount": 250,
+      "title": "Stripe (US) Fee on $250 USD — Net Payout & Gross-Up",
+      "description": "How much does Stripe (US) take from $250? See exact net payout and how much to charge to receive $250 net after fees."
+    },
+    {
+      "slug": "stripe-us-fee-on-500-usd",
+      "processorId": "stripe-us",
+      "defaultAmount": 500,
+      "title": "Stripe (US) Fee on $500 USD — Net Payout & Gross-Up",
+      "description": "How much does Stripe (US) take from $500? See exact net payout and how much to charge to receive $500 net after fees."
+    },
+    {
+      "slug": "stripe-us-fee-on-1000-usd",
+      "processorId": "stripe-us",
+      "defaultAmount": 1000,
+      "title": "Stripe (US) Fee on $1,000 USD — Net Payout & Gross-Up",
+      "description": "How much does Stripe (US) take from $1,000? See exact net payout and how much to charge to receive $1,000 net after fees."
+    },
+    {
+      "slug": "stripe-us-fee-on-2500-usd",
+      "processorId": "stripe-us",
+      "defaultAmount": 2500,
+      "title": "Stripe (US) Fee on $2,500 USD — Net Payout & Gross-Up",
+      "description": "How much does Stripe (US) take from $2,500? See exact net payout and how much to charge to receive $2,500 net after fees."
+    },
+    {
+      "slug": "stripe-us-fee-on-5000-usd",
+      "processorId": "stripe-us",
+      "defaultAmount": 5000,
+      "title": "Stripe (US) Fee on $5,000 USD — Net Payout & Gross-Up",
+      "description": "How much does Stripe (US) take from $5,000? See exact net payout and how much to charge to receive $5,000 net after fees."
+    },
+    {
+      "slug": "stripe-us-fee-on-10000-usd",
+      "processorId": "stripe-us",
+      "defaultAmount": 10000,
+      "title": "Stripe (US) Fee on $10,000 USD — Net Payout & Gross-Up",
+      "description": "How much does Stripe (US) take from $10,000? See exact net payout and how much to charge to receive $10,000 net after fees."
+    },
+    {
+      "slug": "paypal-us-fee-calculator",
+      "processorId": "paypal-us",
+      "defaultAmount": 1000,
+      "title": "PayPal Commercial (US) Fee & Reverse Gross-Up Calculator (2026)",
+      "description": "Calculate exact PayPal Commercial (US) processing fees (3.49% + $0.49), international card surcharges, and exact invoice gross-up in USD."
+    },
+    {
+      "slug": "paypal-us-fee-on-100-usd",
+      "processorId": "paypal-us",
+      "defaultAmount": 100,
+      "title": "PayPal Commercial (US) Fee on $100 USD — Net Payout & Gross-Up",
+      "description": "How much does PayPal Commercial (US) take from $100? See exact net payout and how much to charge to receive $100 net after fees."
+    },
+    {
+      "slug": "paypal-us-fee-on-250-usd",
+      "processorId": "paypal-us",
+      "defaultAmount": 250,
+      "title": "PayPal Commercial (US) Fee on $250 USD — Net Payout & Gross-Up",
+      "description": "How much does PayPal Commercial (US) take from $250? See exact net payout and how much to charge to receive $250 net after fees."
+    },
+    {
+      "slug": "paypal-us-fee-on-500-usd",
+      "processorId": "paypal-us",
+      "defaultAmount": 500,
+      "title": "PayPal Commercial (US) Fee on $500 USD — Net Payout & Gross-Up",
+      "description": "How much does PayPal Commercial (US) take from $500? See exact net payout and how much to charge to receive $500 net after fees."
+    },
+    {
+      "slug": "paypal-us-fee-on-1000-usd",
+      "processorId": "paypal-us",
+      "defaultAmount": 1000,
+      "title": "PayPal Commercial (US) Fee on $1,000 USD — Net Payout & Gross-Up",
+      "description": "How much does PayPal Commercial (US) take from $1,000? See exact net payout and how much to charge to receive $1,000 net after fees."
+    },
+    {
+      "slug": "paypal-us-fee-on-2500-usd",
+      "processorId": "paypal-us",
+      "defaultAmount": 2500,
+      "title": "PayPal Commercial (US) Fee on $2,500 USD — Net Payout & Gross-Up",
+      "description": "How much does PayPal Commercial (US) take from $2,500? See exact net payout and how much to charge to receive $2,500 net after fees."
+    },
+    {
+      "slug": "paypal-us-fee-on-5000-usd",
+      "processorId": "paypal-us",
+      "defaultAmount": 5000,
+      "title": "PayPal Commercial (US) Fee on $5,000 USD — Net Payout & Gross-Up",
+      "description": "How much does PayPal Commercial (US) take from $5,000? See exact net payout and how much to charge to receive $5,000 net after fees."
+    },
+    {
+      "slug": "paypal-us-fee-on-10000-usd",
+      "processorId": "paypal-us",
+      "defaultAmount": 10000,
+      "title": "PayPal Commercial (US) Fee on $10,000 USD — Net Payout & Gross-Up",
+      "description": "How much does PayPal Commercial (US) take from $10,000? See exact net payout and how much to charge to receive $10,000 net after fees."
+    },
+    {
+      "slug": "stripe-ca-fee-calculator",
+      "processorId": "stripe-ca",
+      "defaultAmount": 1000,
+      "title": "Stripe Canada Fee & Reverse Gross-Up Calculator (2026)",
+      "description": "Calculate exact Stripe Canada processing fees (2.90% + CA$0.30), international card surcharges, and exact invoice gross-up in CAD."
+    },
+    {
+      "slug": "stripe-ca-fee-on-100-cad",
+      "processorId": "stripe-ca",
+      "defaultAmount": 100,
+      "title": "Stripe Canada Fee on CA$100 CAD — Net Payout & Gross-Up",
+      "description": "How much does Stripe Canada take from CA$100? See exact net payout and how much to charge to receive CA$100 net after fees."
+    },
+    {
+      "slug": "stripe-ca-fee-on-250-cad",
+      "processorId": "stripe-ca",
+      "defaultAmount": 250,
+      "title": "Stripe Canada Fee on CA$250 CAD — Net Payout & Gross-Up",
+      "description": "How much does Stripe Canada take from CA$250? See exact net payout and how much to charge to receive CA$250 net after fees."
+    },
+    {
+      "slug": "stripe-ca-fee-on-500-cad",
+      "processorId": "stripe-ca",
+      "defaultAmount": 500,
+      "title": "Stripe Canada Fee on CA$500 CAD — Net Payout & Gross-Up",
+      "description": "How much does Stripe Canada take from CA$500? See exact net payout and how much to charge to receive CA$500 net after fees."
+    },
+    {
+      "slug": "stripe-ca-fee-on-1000-cad",
+      "processorId": "stripe-ca",
+      "defaultAmount": 1000,
+      "title": "Stripe Canada Fee on CA$1,000 CAD — Net Payout & Gross-Up",
+      "description": "How much does Stripe Canada take from CA$1,000? See exact net payout and how much to charge to receive CA$1,000 net after fees."
+    },
+    {
+      "slug": "stripe-ca-fee-on-2500-cad",
+      "processorId": "stripe-ca",
+      "defaultAmount": 2500,
+      "title": "Stripe Canada Fee on CA$2,500 CAD — Net Payout & Gross-Up",
+      "description": "How much does Stripe Canada take from CA$2,500? See exact net payout and how much to charge to receive CA$2,500 net after fees."
+    },
+    {
+      "slug": "stripe-ca-fee-on-5000-cad",
+      "processorId": "stripe-ca",
+      "defaultAmount": 5000,
+      "title": "Stripe Canada Fee on CA$5,000 CAD — Net Payout & Gross-Up",
+      "description": "How much does Stripe Canada take from CA$5,000? See exact net payout and how much to charge to receive CA$5,000 net after fees."
+    },
+    {
+      "slug": "stripe-ca-fee-on-10000-cad",
+      "processorId": "stripe-ca",
+      "defaultAmount": 10000,
+      "title": "Stripe Canada Fee on CA$10,000 CAD — Net Payout & Gross-Up",
+      "description": "How much does Stripe Canada take from CA$10,000? See exact net payout and how much to charge to receive CA$10,000 net after fees."
+    },
+    {
+      "slug": "moneris-ca-fee-calculator",
+      "processorId": "moneris-ca",
+      "defaultAmount": 1000,
+      "title": "Moneris Canada (E-commerce) Fee & Reverse Gross-Up Calculator (2026)",
+      "description": "Calculate exact Moneris Canada (E-commerce) processing fees (2.85% + CA$0.30), international card surcharges, and exact invoice gross-up in CAD."
+    },
+    {
+      "slug": "moneris-ca-fee-on-100-cad",
+      "processorId": "moneris-ca",
+      "defaultAmount": 100,
+      "title": "Moneris Canada (E-commerce) Fee on CA$100 CAD — Net Payout & Gross-Up",
+      "description": "How much does Moneris Canada (E-commerce) take from CA$100? See exact net payout and how much to charge to receive CA$100 net after fees."
+    },
+    {
+      "slug": "moneris-ca-fee-on-250-cad",
+      "processorId": "moneris-ca",
+      "defaultAmount": 250,
+      "title": "Moneris Canada (E-commerce) Fee on CA$250 CAD — Net Payout & Gross-Up",
+      "description": "How much does Moneris Canada (E-commerce) take from CA$250? See exact net payout and how much to charge to receive CA$250 net after fees."
+    },
+    {
+      "slug": "moneris-ca-fee-on-500-cad",
+      "processorId": "moneris-ca",
+      "defaultAmount": 500,
+      "title": "Moneris Canada (E-commerce) Fee on CA$500 CAD — Net Payout & Gross-Up",
+      "description": "How much does Moneris Canada (E-commerce) take from CA$500? See exact net payout and how much to charge to receive CA$500 net after fees."
+    },
+    {
+      "slug": "moneris-ca-fee-on-1000-cad",
+      "processorId": "moneris-ca",
+      "defaultAmount": 1000,
+      "title": "Moneris Canada (E-commerce) Fee on CA$1,000 CAD — Net Payout & Gross-Up",
+      "description": "How much does Moneris Canada (E-commerce) take from CA$1,000? See exact net payout and how much to charge to receive CA$1,000 net after fees."
+    },
+    {
+      "slug": "moneris-ca-fee-on-2500-cad",
+      "processorId": "moneris-ca",
+      "defaultAmount": 2500,
+      "title": "Moneris Canada (E-commerce) Fee on CA$2,500 CAD — Net Payout & Gross-Up",
+      "description": "How much does Moneris Canada (E-commerce) take from CA$2,500? See exact net payout and how much to charge to receive CA$2,500 net after fees."
+    },
+    {
+      "slug": "moneris-ca-fee-on-5000-cad",
+      "processorId": "moneris-ca",
+      "defaultAmount": 5000,
+      "title": "Moneris Canada (E-commerce) Fee on CA$5,000 CAD — Net Payout & Gross-Up",
+      "description": "How much does Moneris Canada (E-commerce) take from CA$5,000? See exact net payout and how much to charge to receive CA$5,000 net after fees."
+    },
+    {
+      "slug": "moneris-ca-fee-on-10000-cad",
+      "processorId": "moneris-ca",
+      "defaultAmount": 10000,
+      "title": "Moneris Canada (E-commerce) Fee on CA$10,000 CAD — Net Payout & Gross-Up",
+      "description": "How much does Moneris Canada (E-commerce) take from CA$10,000? See exact net payout and how much to charge to receive CA$10,000 net after fees."
+    },
+    {
+      "slug": "stripe-eu-fee-calculator",
+      "processorId": "stripe-eu",
+      "defaultAmount": 1000,
+      "title": "Stripe Europe (EEA Cards) Fee & Reverse Gross-Up Calculator (2026)",
+      "description": "Calculate exact Stripe Europe (EEA Cards) processing fees (1.50% + €0.25), international card surcharges, and exact invoice gross-up in EUR."
+    },
+    {
+      "slug": "stripe-eu-fee-on-100-eur",
+      "processorId": "stripe-eu",
+      "defaultAmount": 100,
+      "title": "Stripe Europe (EEA Cards) Fee on €100 EUR — Net Payout & Gross-Up",
+      "description": "How much does Stripe Europe (EEA Cards) take from €100? See exact net payout and how much to charge to receive €100 net after fees."
+    },
+    {
+      "slug": "stripe-eu-fee-on-250-eur",
+      "processorId": "stripe-eu",
+      "defaultAmount": 250,
+      "title": "Stripe Europe (EEA Cards) Fee on €250 EUR — Net Payout & Gross-Up",
+      "description": "How much does Stripe Europe (EEA Cards) take from €250? See exact net payout and how much to charge to receive €250 net after fees."
+    },
+    {
+      "slug": "stripe-eu-fee-on-500-eur",
+      "processorId": "stripe-eu",
+      "defaultAmount": 500,
+      "title": "Stripe Europe (EEA Cards) Fee on €500 EUR — Net Payout & Gross-Up",
+      "description": "How much does Stripe Europe (EEA Cards) take from €500? See exact net payout and how much to charge to receive €500 net after fees."
+    },
+    {
+      "slug": "stripe-eu-fee-on-1000-eur",
+      "processorId": "stripe-eu",
+      "defaultAmount": 1000,
+      "title": "Stripe Europe (EEA Cards) Fee on €1,000 EUR — Net Payout & Gross-Up",
+      "description": "How much does Stripe Europe (EEA Cards) take from €1,000? See exact net payout and how much to charge to receive €1,000 net after fees."
+    },
+    {
+      "slug": "stripe-eu-fee-on-2500-eur",
+      "processorId": "stripe-eu",
+      "defaultAmount": 2500,
+      "title": "Stripe Europe (EEA Cards) Fee on €2,500 EUR — Net Payout & Gross-Up",
+      "description": "How much does Stripe Europe (EEA Cards) take from €2,500? See exact net payout and how much to charge to receive €2,500 net after fees."
+    },
+    {
+      "slug": "stripe-eu-fee-on-5000-eur",
+      "processorId": "stripe-eu",
+      "defaultAmount": 5000,
+      "title": "Stripe Europe (EEA Cards) Fee on €5,000 EUR — Net Payout & Gross-Up",
+      "description": "How much does Stripe Europe (EEA Cards) take from €5,000? See exact net payout and how much to charge to receive €5,000 net after fees."
+    },
+    {
+      "slug": "stripe-eu-fee-on-10000-eur",
+      "processorId": "stripe-eu",
+      "defaultAmount": 10000,
+      "title": "Stripe Europe (EEA Cards) Fee on €10,000 EUR — Net Payout & Gross-Up",
+      "description": "How much does Stripe Europe (EEA Cards) take from €10,000? See exact net payout and how much to charge to receive €10,000 net after fees."
+    },
+    {
+      "slug": "mollie-eu-fee-calculator",
+      "processorId": "mollie-eu",
+      "defaultAmount": 1000,
+      "title": "Mollie (EU Cards & iDEAL) Fee & Reverse Gross-Up Calculator (2026)",
+      "description": "Calculate exact Mollie (EU Cards & iDEAL) processing fees (1.80% + €0.25), international card surcharges, and exact invoice gross-up in EUR."
+    },
+    {
+      "slug": "mollie-eu-fee-on-100-eur",
+      "processorId": "mollie-eu",
+      "defaultAmount": 100,
+      "title": "Mollie (EU Cards & iDEAL) Fee on €100 EUR — Net Payout & Gross-Up",
+      "description": "How much does Mollie (EU Cards & iDEAL) take from €100? See exact net payout and how much to charge to receive €100 net after fees."
+    },
+    {
+      "slug": "mollie-eu-fee-on-250-eur",
+      "processorId": "mollie-eu",
+      "defaultAmount": 250,
+      "title": "Mollie (EU Cards & iDEAL) Fee on €250 EUR — Net Payout & Gross-Up",
+      "description": "How much does Mollie (EU Cards & iDEAL) take from €250? See exact net payout and how much to charge to receive €250 net after fees."
+    },
+    {
+      "slug": "mollie-eu-fee-on-500-eur",
+      "processorId": "mollie-eu",
+      "defaultAmount": 500,
+      "title": "Mollie (EU Cards & iDEAL) Fee on €500 EUR — Net Payout & Gross-Up",
+      "description": "How much does Mollie (EU Cards & iDEAL) take from €500? See exact net payout and how much to charge to receive €500 net after fees."
+    },
+    {
+      "slug": "mollie-eu-fee-on-1000-eur",
+      "processorId": "mollie-eu",
+      "defaultAmount": 1000,
+      "title": "Mollie (EU Cards & iDEAL) Fee on €1,000 EUR — Net Payout & Gross-Up",
+      "description": "How much does Mollie (EU Cards & iDEAL) take from €1,000? See exact net payout and how much to charge to receive €1,000 net after fees."
+    },
+    {
+      "slug": "mollie-eu-fee-on-2500-eur",
+      "processorId": "mollie-eu",
+      "defaultAmount": 2500,
+      "title": "Mollie (EU Cards & iDEAL) Fee on €2,500 EUR — Net Payout & Gross-Up",
+      "description": "How much does Mollie (EU Cards & iDEAL) take from €2,500? See exact net payout and how much to charge to receive €2,500 net after fees."
+    },
+    {
+      "slug": "mollie-eu-fee-on-5000-eur",
+      "processorId": "mollie-eu",
+      "defaultAmount": 5000,
+      "title": "Mollie (EU Cards & iDEAL) Fee on €5,000 EUR — Net Payout & Gross-Up",
+      "description": "How much does Mollie (EU Cards & iDEAL) take from €5,000? See exact net payout and how much to charge to receive €5,000 net after fees."
+    },
+    {
+      "slug": "mollie-eu-fee-on-10000-eur",
+      "processorId": "mollie-eu",
+      "defaultAmount": 10000,
+      "title": "Mollie (EU Cards & iDEAL) Fee on €10,000 EUR — Net Payout & Gross-Up",
+      "description": "How much does Mollie (EU Cards & iDEAL) take from €10,000? See exact net payout and how much to charge to receive €10,000 net after fees."
+    },
+    {
+      "slug": "klarna-eu-fee-calculator",
+      "processorId": "klarna-eu",
+      "defaultAmount": 1000,
+      "title": "Klarna Merchant (Pay Now / BNPL) Fee & Reverse Gross-Up Calculator (2026)",
+      "description": "Calculate exact Klarna Merchant (Pay Now / BNPL) processing fees (3.29% + €0.35), international card surcharges, and exact invoice gross-up in EUR."
+    },
+    {
+      "slug": "klarna-eu-fee-on-100-eur",
+      "processorId": "klarna-eu",
+      "defaultAmount": 100,
+      "title": "Klarna Merchant (Pay Now / BNPL) Fee on €100 EUR — Net Payout & Gross-Up",
+      "description": "How much does Klarna Merchant (Pay Now / BNPL) take from €100? See exact net payout and how much to charge to receive €100 net after fees."
+    },
+    {
+      "slug": "klarna-eu-fee-on-250-eur",
+      "processorId": "klarna-eu",
+      "defaultAmount": 250,
+      "title": "Klarna Merchant (Pay Now / BNPL) Fee on €250 EUR — Net Payout & Gross-Up",
+      "description": "How much does Klarna Merchant (Pay Now / BNPL) take from €250? See exact net payout and how much to charge to receive €250 net after fees."
+    },
+    {
+      "slug": "klarna-eu-fee-on-500-eur",
+      "processorId": "klarna-eu",
+      "defaultAmount": 500,
+      "title": "Klarna Merchant (Pay Now / BNPL) Fee on €500 EUR — Net Payout & Gross-Up",
+      "description": "How much does Klarna Merchant (Pay Now / BNPL) take from €500? See exact net payout and how much to charge to receive €500 net after fees."
+    },
+    {
+      "slug": "klarna-eu-fee-on-1000-eur",
+      "processorId": "klarna-eu",
+      "defaultAmount": 1000,
+      "title": "Klarna Merchant (Pay Now / BNPL) Fee on €1,000 EUR — Net Payout & Gross-Up",
+      "description": "How much does Klarna Merchant (Pay Now / BNPL) take from €1,000? See exact net payout and how much to charge to receive €1,000 net after fees."
+    },
+    {
+      "slug": "klarna-eu-fee-on-2500-eur",
+      "processorId": "klarna-eu",
+      "defaultAmount": 2500,
+      "title": "Klarna Merchant (Pay Now / BNPL) Fee on €2,500 EUR — Net Payout & Gross-Up",
+      "description": "How much does Klarna Merchant (Pay Now / BNPL) take from €2,500? See exact net payout and how much to charge to receive €2,500 net after fees."
+    },
+    {
+      "slug": "klarna-eu-fee-on-5000-eur",
+      "processorId": "klarna-eu",
+      "defaultAmount": 5000,
+      "title": "Klarna Merchant (Pay Now / BNPL) Fee on €5,000 EUR — Net Payout & Gross-Up",
+      "description": "How much does Klarna Merchant (Pay Now / BNPL) take from €5,000? See exact net payout and how much to charge to receive €5,000 net after fees."
+    },
+    {
+      "slug": "klarna-eu-fee-on-10000-eur",
+      "processorId": "klarna-eu",
+      "defaultAmount": 10000,
+      "title": "Klarna Merchant (Pay Now / BNPL) Fee on €10,000 EUR — Net Payout & Gross-Up",
+      "description": "How much does Klarna Merchant (Pay Now / BNPL) take from €10,000? See exact net payout and how much to charge to receive €10,000 net after fees."
+    }
+  ],
+  "ro": [
+    {
+      "slug": "calculator-comision-netopia",
+      "processorId": "netopia-ro",
+      "defaultAmount": 1000,
+      "title": "Calculator Comision Netopia Payments (România) & Brut-la-Net (2026)",
+      "description": "Calculează exact comisionul Netopia Payments (România) (0.99% + 0.60 lei), taxa pentru carduri internaționale și suma brută de facturat."
+    },
+    {
+      "slug": "comision-netopia-la-100-lei",
+      "processorId": "netopia-ro",
+      "defaultAmount": 100,
+      "title": "Cât este comisionul Netopia Payments (România) la 100 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 100 lei încasați prin Netopia Payments (România) și cât trebuie să treci pe factură pentru a încasa 100 lei net."
+    },
+    {
+      "slug": "comision-netopia-la-500-lei",
+      "processorId": "netopia-ro",
+      "defaultAmount": 500,
+      "title": "Cât este comisionul Netopia Payments (România) la 500 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 500 lei încasați prin Netopia Payments (România) și cât trebuie să treci pe factură pentru a încasa 500 lei net."
+    },
+    {
+      "slug": "comision-netopia-la-1000-lei",
+      "processorId": "netopia-ro",
+      "defaultAmount": 1000,
+      "title": "Cât este comisionul Netopia Payments (România) la 1000 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 1000 lei încasați prin Netopia Payments (România) și cât trebuie să treci pe factură pentru a încasa 1000 lei net."
+    },
+    {
+      "slug": "comision-netopia-la-2500-lei",
+      "processorId": "netopia-ro",
+      "defaultAmount": 2500,
+      "title": "Cât este comisionul Netopia Payments (România) la 2500 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 2500 lei încasați prin Netopia Payments (România) și cât trebuie să treci pe factură pentru a încasa 2500 lei net."
+    },
+    {
+      "slug": "comision-netopia-la-5000-lei",
+      "processorId": "netopia-ro",
+      "defaultAmount": 5000,
+      "title": "Cât este comisionul Netopia Payments (România) la 5000 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 5000 lei încasați prin Netopia Payments (România) și cât trebuie să treci pe factură pentru a încasa 5000 lei net."
+    },
+    {
+      "slug": "comision-netopia-la-10000-lei",
+      "processorId": "netopia-ro",
+      "defaultAmount": 10000,
+      "title": "Cât este comisionul Netopia Payments (România) la 10000 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 10000 lei încasați prin Netopia Payments (România) și cât trebuie să treci pe factură pentru a încasa 10000 lei net."
+    },
+    {
+      "slug": "calculator-comision-euplatesc",
+      "processorId": "euplatesc-ro",
+      "defaultAmount": 1000,
+      "title": "Calculator Comision EuPlătesc.ro & Brut-la-Net (2026)",
+      "description": "Calculează exact comisionul EuPlătesc.ro (1.10% + 0.50 lei), taxa pentru carduri internaționale și suma brută de facturat."
+    },
+    {
+      "slug": "comision-euplatesc-la-100-lei",
+      "processorId": "euplatesc-ro",
+      "defaultAmount": 100,
+      "title": "Cât este comisionul EuPlătesc.ro la 100 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 100 lei încasați prin EuPlătesc.ro și cât trebuie să treci pe factură pentru a încasa 100 lei net."
+    },
+    {
+      "slug": "comision-euplatesc-la-500-lei",
+      "processorId": "euplatesc-ro",
+      "defaultAmount": 500,
+      "title": "Cât este comisionul EuPlătesc.ro la 500 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 500 lei încasați prin EuPlătesc.ro și cât trebuie să treci pe factură pentru a încasa 500 lei net."
+    },
+    {
+      "slug": "comision-euplatesc-la-1000-lei",
+      "processorId": "euplatesc-ro",
+      "defaultAmount": 1000,
+      "title": "Cât este comisionul EuPlătesc.ro la 1000 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 1000 lei încasați prin EuPlătesc.ro și cât trebuie să treci pe factură pentru a încasa 1000 lei net."
+    },
+    {
+      "slug": "comision-euplatesc-la-2500-lei",
+      "processorId": "euplatesc-ro",
+      "defaultAmount": 2500,
+      "title": "Cât este comisionul EuPlătesc.ro la 2500 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 2500 lei încasați prin EuPlătesc.ro și cât trebuie să treci pe factură pentru a încasa 2500 lei net."
+    },
+    {
+      "slug": "comision-euplatesc-la-5000-lei",
+      "processorId": "euplatesc-ro",
+      "defaultAmount": 5000,
+      "title": "Cât este comisionul EuPlătesc.ro la 5000 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 5000 lei încasați prin EuPlătesc.ro și cât trebuie să treci pe factură pentru a încasa 5000 lei net."
+    },
+    {
+      "slug": "comision-euplatesc-la-10000-lei",
+      "processorId": "euplatesc-ro",
+      "defaultAmount": 10000,
+      "title": "Cât este comisionul EuPlătesc.ro la 10000 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 10000 lei încasați prin EuPlătesc.ro și cât trebuie să treci pe factură pentru a încasa 10000 lei net."
+    },
+    {
+      "slug": "calculator-comision-stripe",
+      "processorId": "stripe-ro",
+      "defaultAmount": 1000,
+      "title": "Calculator Comision Stripe România (Carduri SEE) & Brut-la-Net (2026)",
+      "description": "Calculează exact comisionul Stripe România (Carduri SEE) (1.50% + 1.00 lei), taxa pentru carduri internaționale și suma brută de facturat."
+    },
+    {
+      "slug": "comision-stripe-la-100-lei",
+      "processorId": "stripe-ro",
+      "defaultAmount": 100,
+      "title": "Cât este comisionul Stripe România (Carduri SEE) la 100 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 100 lei încasați prin Stripe România (Carduri SEE) și cât trebuie să treci pe factură pentru a încasa 100 lei net."
+    },
+    {
+      "slug": "comision-stripe-la-500-lei",
+      "processorId": "stripe-ro",
+      "defaultAmount": 500,
+      "title": "Cât este comisionul Stripe România (Carduri SEE) la 500 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 500 lei încasați prin Stripe România (Carduri SEE) și cât trebuie să treci pe factură pentru a încasa 500 lei net."
+    },
+    {
+      "slug": "comision-stripe-la-1000-lei",
+      "processorId": "stripe-ro",
+      "defaultAmount": 1000,
+      "title": "Cât este comisionul Stripe România (Carduri SEE) la 1000 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 1000 lei încasați prin Stripe România (Carduri SEE) și cât trebuie să treci pe factură pentru a încasa 1000 lei net."
+    },
+    {
+      "slug": "comision-stripe-la-2500-lei",
+      "processorId": "stripe-ro",
+      "defaultAmount": 2500,
+      "title": "Cât este comisionul Stripe România (Carduri SEE) la 2500 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 2500 lei încasați prin Stripe România (Carduri SEE) și cât trebuie să treci pe factură pentru a încasa 2500 lei net."
+    },
+    {
+      "slug": "comision-stripe-la-5000-lei",
+      "processorId": "stripe-ro",
+      "defaultAmount": 5000,
+      "title": "Cât este comisionul Stripe România (Carduri SEE) la 5000 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 5000 lei încasați prin Stripe România (Carduri SEE) și cât trebuie să treci pe factură pentru a încasa 5000 lei net."
+    },
+    {
+      "slug": "comision-stripe-la-10000-lei",
+      "processorId": "stripe-ro",
+      "defaultAmount": 10000,
+      "title": "Cât este comisionul Stripe România (Carduri SEE) la 10000 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 10000 lei încasați prin Stripe România (Carduri SEE) și cât trebuie să treci pe factură pentru a încasa 10000 lei net."
+    },
+    {
+      "slug": "calculator-comision-emag",
+      "processorId": "emag-ro",
+      "defaultAmount": 1000,
+      "title": "Calculator Comision eMAG Marketplace (Medie Electronice/Home) & Brut-la-Net (2026)",
+      "description": "Calculează exact comisionul eMAG Marketplace (Medie Electronice/Home) (14.00% + 0.00 lei), taxa pentru carduri internaționale și suma brută de facturat."
+    },
+    {
+      "slug": "comision-emag-la-100-lei",
+      "processorId": "emag-ro",
+      "defaultAmount": 100,
+      "title": "Cât este comisionul eMAG Marketplace (Medie Electronice/Home) la 100 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 100 lei încasați prin eMAG Marketplace (Medie Electronice/Home) și cât trebuie să treci pe factură pentru a încasa 100 lei net."
+    },
+    {
+      "slug": "comision-emag-la-500-lei",
+      "processorId": "emag-ro",
+      "defaultAmount": 500,
+      "title": "Cât este comisionul eMAG Marketplace (Medie Electronice/Home) la 500 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 500 lei încasați prin eMAG Marketplace (Medie Electronice/Home) și cât trebuie să treci pe factură pentru a încasa 500 lei net."
+    },
+    {
+      "slug": "comision-emag-la-1000-lei",
+      "processorId": "emag-ro",
+      "defaultAmount": 1000,
+      "title": "Cât este comisionul eMAG Marketplace (Medie Electronice/Home) la 1000 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 1000 lei încasați prin eMAG Marketplace (Medie Electronice/Home) și cât trebuie să treci pe factură pentru a încasa 1000 lei net."
+    },
+    {
+      "slug": "comision-emag-la-2500-lei",
+      "processorId": "emag-ro",
+      "defaultAmount": 2500,
+      "title": "Cât este comisionul eMAG Marketplace (Medie Electronice/Home) la 2500 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 2500 lei încasați prin eMAG Marketplace (Medie Electronice/Home) și cât trebuie să treci pe factură pentru a încasa 2500 lei net."
+    },
+    {
+      "slug": "comision-emag-la-5000-lei",
+      "processorId": "emag-ro",
+      "defaultAmount": 5000,
+      "title": "Cât este comisionul eMAG Marketplace (Medie Electronice/Home) la 5000 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 5000 lei încasați prin eMAG Marketplace (Medie Electronice/Home) și cât trebuie să treci pe factură pentru a încasa 5000 lei net."
+    },
+    {
+      "slug": "comision-emag-la-10000-lei",
+      "processorId": "emag-ro",
+      "defaultAmount": 10000,
+      "title": "Cât este comisionul eMAG Marketplace (Medie Electronice/Home) la 10000 RON? Calculator Net & Facturare",
+      "description": "Vezi cu câți bani rămâi în firmă din 10000 lei încasați prin eMAG Marketplace (Medie Electronice/Home) și cât trebuie să treci pe factură pentru a încasa 10000 lei net."
+    }
+  ]
+}
