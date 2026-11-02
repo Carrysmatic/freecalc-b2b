@@ -1,0 +1,562 @@
+[
+  {
+    "slug": "stripe-fee-calculator",
+    "processorId": "stripe",
+    "defaultAmount": 1000,
+    "seoTitle": "Stripe Fee & Reverse Gross-Up Calculator (2026 Rates)",
+    "seoDescription": "Calculate exact Stripe payment processing fees (2.90% + $0.30), international surcharges, and reverse invoice gross-up amounts.",
+    "h1": "Stripe Fee & Invoice Gross-Up Calculator"
+  },
+  {
+    "slug": "stripe-fee-on-50-usd",
+    "processorId": "stripe",
+    "defaultAmount": 50,
+    "seoTitle": "Stripe Fee on $50 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Stripe take from $50? Standard fee is $1.75. To receive exactly $50 net, you must invoice $51.80.",
+    "h1": "Stripe Fee Calculator for $50 USD"
+  },
+  {
+    "slug": "stripe-fee-on-100-usd",
+    "processorId": "stripe",
+    "defaultAmount": 100,
+    "seoTitle": "Stripe Fee on $100 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Stripe take from $100? Standard fee is $3.20. To receive exactly $100 net, you must invoice $103.30.",
+    "h1": "Stripe Fee Calculator for $100 USD"
+  },
+  {
+    "slug": "stripe-fee-on-250-usd",
+    "processorId": "stripe",
+    "defaultAmount": 250,
+    "seoTitle": "Stripe Fee on $250 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Stripe take from $250? Standard fee is $7.55. To receive exactly $250 net, you must invoice $257.78.",
+    "h1": "Stripe Fee Calculator for $250 USD"
+  },
+  {
+    "slug": "stripe-fee-on-500-usd",
+    "processorId": "stripe",
+    "defaultAmount": 500,
+    "seoTitle": "Stripe Fee on $500 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Stripe take from $500? Standard fee is $14.80. To receive exactly $500 net, you must invoice $515.24.",
+    "h1": "Stripe Fee Calculator for $500 USD"
+  },
+  {
+    "slug": "stripe-fee-on-1000-usd",
+    "processorId": "stripe",
+    "defaultAmount": 1000,
+    "seoTitle": "Stripe Fee on $1,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Stripe take from $1,000? Standard fee is $29.30. To receive exactly $1,000 net, you must invoice $1030.18.",
+    "h1": "Stripe Fee Calculator for $1,000 USD"
+  },
+  {
+    "slug": "stripe-fee-on-2000-usd",
+    "processorId": "stripe",
+    "defaultAmount": 2000,
+    "seoTitle": "Stripe Fee on $2,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Stripe take from $2,000? Standard fee is $58.30. To receive exactly $2,000 net, you must invoice $2060.04.",
+    "h1": "Stripe Fee Calculator for $2,000 USD"
+  },
+  {
+    "slug": "stripe-fee-on-2500-usd",
+    "processorId": "stripe",
+    "defaultAmount": 2500,
+    "seoTitle": "Stripe Fee on $2,500 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Stripe take from $2,500? Standard fee is $72.80. To receive exactly $2,500 net, you must invoice $2574.97.",
+    "h1": "Stripe Fee Calculator for $2,500 USD"
+  },
+  {
+    "slug": "stripe-fee-on-5000-usd",
+    "processorId": "stripe",
+    "defaultAmount": 5000,
+    "seoTitle": "Stripe Fee on $5,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Stripe take from $5,000? Standard fee is $145.30. To receive exactly $5,000 net, you must invoice $5149.64.",
+    "h1": "Stripe Fee Calculator for $5,000 USD"
+  },
+  {
+    "slug": "stripe-fee-on-10000-usd",
+    "processorId": "stripe",
+    "defaultAmount": 10000,
+    "seoTitle": "Stripe Fee on $10,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Stripe take from $10,000? Standard fee is $290.30. To receive exactly $10,000 net, you must invoice $10298.97.",
+    "h1": "Stripe Fee Calculator for $10,000 USD"
+  },
+  {
+    "slug": "paypal-fee-calculator",
+    "processorId": "paypal",
+    "defaultAmount": 1000,
+    "seoTitle": "PayPal Fee & Reverse Gross-Up Calculator (2026 Rates)",
+    "seoDescription": "Calculate exact PayPal payment processing fees (3.49% + $0.49), international surcharges, and reverse invoice gross-up amounts.",
+    "h1": "PayPal Fee & Invoice Gross-Up Calculator"
+  },
+  {
+    "slug": "paypal-fee-on-50-usd",
+    "processorId": "paypal",
+    "defaultAmount": 50,
+    "seoTitle": "PayPal Fee on $50 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does PayPal take from $50? Standard fee is $2.24. To receive exactly $50 net, you must invoice $52.32.",
+    "h1": "PayPal Fee Calculator for $50 USD"
+  },
+  {
+    "slug": "paypal-fee-on-100-usd",
+    "processorId": "paypal",
+    "defaultAmount": 100,
+    "seoTitle": "PayPal Fee on $100 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does PayPal take from $100? Standard fee is $3.98. To receive exactly $100 net, you must invoice $104.12.",
+    "h1": "PayPal Fee Calculator for $100 USD"
+  },
+  {
+    "slug": "paypal-fee-on-250-usd",
+    "processorId": "paypal",
+    "defaultAmount": 250,
+    "seoTitle": "PayPal Fee on $250 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does PayPal take from $250? Standard fee is $9.21. To receive exactly $250 net, you must invoice $259.55.",
+    "h1": "PayPal Fee Calculator for $250 USD"
+  },
+  {
+    "slug": "paypal-fee-on-500-usd",
+    "processorId": "paypal",
+    "defaultAmount": 500,
+    "seoTitle": "PayPal Fee on $500 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does PayPal take from $500? Standard fee is $17.94. To receive exactly $500 net, you must invoice $518.59.",
+    "h1": "PayPal Fee Calculator for $500 USD"
+  },
+  {
+    "slug": "paypal-fee-on-1000-usd",
+    "processorId": "paypal",
+    "defaultAmount": 1000,
+    "seoTitle": "PayPal Fee on $1,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does PayPal take from $1,000? Standard fee is $35.39. To receive exactly $1,000 net, you must invoice $1036.67.",
+    "h1": "PayPal Fee Calculator for $1,000 USD"
+  },
+  {
+    "slug": "paypal-fee-on-2000-usd",
+    "processorId": "paypal",
+    "defaultAmount": 2000,
+    "seoTitle": "PayPal Fee on $2,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does PayPal take from $2,000? Standard fee is $70.29. To receive exactly $2,000 net, you must invoice $2072.83.",
+    "h1": "PayPal Fee Calculator for $2,000 USD"
+  },
+  {
+    "slug": "paypal-fee-on-2500-usd",
+    "processorId": "paypal",
+    "defaultAmount": 2500,
+    "seoTitle": "PayPal Fee on $2,500 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does PayPal take from $2,500? Standard fee is $87.74. To receive exactly $2,500 net, you must invoice $2590.91.",
+    "h1": "PayPal Fee Calculator for $2,500 USD"
+  },
+  {
+    "slug": "paypal-fee-on-5000-usd",
+    "processorId": "paypal",
+    "defaultAmount": 5000,
+    "seoTitle": "PayPal Fee on $5,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does PayPal take from $5,000? Standard fee is $174.99. To receive exactly $5,000 net, you must invoice $5181.32.",
+    "h1": "PayPal Fee Calculator for $5,000 USD"
+  },
+  {
+    "slug": "paypal-fee-on-10000-usd",
+    "processorId": "paypal",
+    "defaultAmount": 10000,
+    "seoTitle": "PayPal Fee on $10,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does PayPal take from $10,000? Standard fee is $349.49. To receive exactly $10,000 net, you must invoice $10362.13.",
+    "h1": "PayPal Fee Calculator for $10,000 USD"
+  },
+  {
+    "slug": "lemonsqueezy-fee-calculator",
+    "processorId": "lemonsqueezy",
+    "defaultAmount": 1000,
+    "seoTitle": "Lemon Squeezy Fee & Reverse Gross-Up Calculator (2026 Rates)",
+    "seoDescription": "Calculate exact Lemon Squeezy payment processing fees (5.00% + $0.50), international surcharges, and reverse invoice gross-up amounts.",
+    "h1": "Lemon Squeezy Fee & Invoice Gross-Up Calculator"
+  },
+  {
+    "slug": "lemonsqueezy-fee-on-50-usd",
+    "processorId": "lemonsqueezy",
+    "defaultAmount": 50,
+    "seoTitle": "Lemon Squeezy Fee on $50 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Lemon Squeezy take from $50? Standard fee is $3.00. To receive exactly $50 net, you must invoice $53.16.",
+    "h1": "Lemon Squeezy Fee Calculator for $50 USD"
+  },
+  {
+    "slug": "lemonsqueezy-fee-on-100-usd",
+    "processorId": "lemonsqueezy",
+    "defaultAmount": 100,
+    "seoTitle": "Lemon Squeezy Fee on $100 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Lemon Squeezy take from $100? Standard fee is $5.50. To receive exactly $100 net, you must invoice $105.79.",
+    "h1": "Lemon Squeezy Fee Calculator for $100 USD"
+  },
+  {
+    "slug": "lemonsqueezy-fee-on-250-usd",
+    "processorId": "lemonsqueezy",
+    "defaultAmount": 250,
+    "seoTitle": "Lemon Squeezy Fee on $250 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Lemon Squeezy take from $250? Standard fee is $13.00. To receive exactly $250 net, you must invoice $263.68.",
+    "h1": "Lemon Squeezy Fee Calculator for $250 USD"
+  },
+  {
+    "slug": "lemonsqueezy-fee-on-500-usd",
+    "processorId": "lemonsqueezy",
+    "defaultAmount": 500,
+    "seoTitle": "Lemon Squeezy Fee on $500 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Lemon Squeezy take from $500? Standard fee is $25.50. To receive exactly $500 net, you must invoice $526.84.",
+    "h1": "Lemon Squeezy Fee Calculator for $500 USD"
+  },
+  {
+    "slug": "lemonsqueezy-fee-on-1000-usd",
+    "processorId": "lemonsqueezy",
+    "defaultAmount": 1000,
+    "seoTitle": "Lemon Squeezy Fee on $1,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Lemon Squeezy take from $1,000? Standard fee is $50.50. To receive exactly $1,000 net, you must invoice $1053.16.",
+    "h1": "Lemon Squeezy Fee Calculator for $1,000 USD"
+  },
+  {
+    "slug": "lemonsqueezy-fee-on-2000-usd",
+    "processorId": "lemonsqueezy",
+    "defaultAmount": 2000,
+    "seoTitle": "Lemon Squeezy Fee on $2,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Lemon Squeezy take from $2,000? Standard fee is $100.50. To receive exactly $2,000 net, you must invoice $2105.79.",
+    "h1": "Lemon Squeezy Fee Calculator for $2,000 USD"
+  },
+  {
+    "slug": "lemonsqueezy-fee-on-2500-usd",
+    "processorId": "lemonsqueezy",
+    "defaultAmount": 2500,
+    "seoTitle": "Lemon Squeezy Fee on $2,500 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Lemon Squeezy take from $2,500? Standard fee is $125.50. To receive exactly $2,500 net, you must invoice $2632.11.",
+    "h1": "Lemon Squeezy Fee Calculator for $2,500 USD"
+  },
+  {
+    "slug": "lemonsqueezy-fee-on-5000-usd",
+    "processorId": "lemonsqueezy",
+    "defaultAmount": 5000,
+    "seoTitle": "Lemon Squeezy Fee on $5,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Lemon Squeezy take from $5,000? Standard fee is $250.50. To receive exactly $5,000 net, you must invoice $5263.68.",
+    "h1": "Lemon Squeezy Fee Calculator for $5,000 USD"
+  },
+  {
+    "slug": "lemonsqueezy-fee-on-10000-usd",
+    "processorId": "lemonsqueezy",
+    "defaultAmount": 10000,
+    "seoTitle": "Lemon Squeezy Fee on $10,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Lemon Squeezy take from $10,000? Standard fee is $500.50. To receive exactly $10,000 net, you must invoice $10526.84.",
+    "h1": "Lemon Squeezy Fee Calculator for $10,000 USD"
+  },
+  {
+    "slug": "paddle-fee-calculator",
+    "processorId": "paddle",
+    "defaultAmount": 1000,
+    "seoTitle": "Paddle Fee & Reverse Gross-Up Calculator (2026 Rates)",
+    "seoDescription": "Calculate exact Paddle payment processing fees (5.00% + $0.50), international surcharges, and reverse invoice gross-up amounts.",
+    "h1": "Paddle Fee & Invoice Gross-Up Calculator"
+  },
+  {
+    "slug": "paddle-fee-on-50-usd",
+    "processorId": "paddle",
+    "defaultAmount": 50,
+    "seoTitle": "Paddle Fee on $50 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Paddle take from $50? Standard fee is $3.00. To receive exactly $50 net, you must invoice $53.16.",
+    "h1": "Paddle Fee Calculator for $50 USD"
+  },
+  {
+    "slug": "paddle-fee-on-100-usd",
+    "processorId": "paddle",
+    "defaultAmount": 100,
+    "seoTitle": "Paddle Fee on $100 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Paddle take from $100? Standard fee is $5.50. To receive exactly $100 net, you must invoice $105.79.",
+    "h1": "Paddle Fee Calculator for $100 USD"
+  },
+  {
+    "slug": "paddle-fee-on-250-usd",
+    "processorId": "paddle",
+    "defaultAmount": 250,
+    "seoTitle": "Paddle Fee on $250 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Paddle take from $250? Standard fee is $13.00. To receive exactly $250 net, you must invoice $263.68.",
+    "h1": "Paddle Fee Calculator for $250 USD"
+  },
+  {
+    "slug": "paddle-fee-on-500-usd",
+    "processorId": "paddle",
+    "defaultAmount": 500,
+    "seoTitle": "Paddle Fee on $500 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Paddle take from $500? Standard fee is $25.50. To receive exactly $500 net, you must invoice $526.84.",
+    "h1": "Paddle Fee Calculator for $500 USD"
+  },
+  {
+    "slug": "paddle-fee-on-1000-usd",
+    "processorId": "paddle",
+    "defaultAmount": 1000,
+    "seoTitle": "Paddle Fee on $1,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Paddle take from $1,000? Standard fee is $50.50. To receive exactly $1,000 net, you must invoice $1053.16.",
+    "h1": "Paddle Fee Calculator for $1,000 USD"
+  },
+  {
+    "slug": "paddle-fee-on-2000-usd",
+    "processorId": "paddle",
+    "defaultAmount": 2000,
+    "seoTitle": "Paddle Fee on $2,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Paddle take from $2,000? Standard fee is $100.50. To receive exactly $2,000 net, you must invoice $2105.79.",
+    "h1": "Paddle Fee Calculator for $2,000 USD"
+  },
+  {
+    "slug": "paddle-fee-on-2500-usd",
+    "processorId": "paddle",
+    "defaultAmount": 2500,
+    "seoTitle": "Paddle Fee on $2,500 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Paddle take from $2,500? Standard fee is $125.50. To receive exactly $2,500 net, you must invoice $2632.11.",
+    "h1": "Paddle Fee Calculator for $2,500 USD"
+  },
+  {
+    "slug": "paddle-fee-on-5000-usd",
+    "processorId": "paddle",
+    "defaultAmount": 5000,
+    "seoTitle": "Paddle Fee on $5,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Paddle take from $5,000? Standard fee is $250.50. To receive exactly $5,000 net, you must invoice $5263.68.",
+    "h1": "Paddle Fee Calculator for $5,000 USD"
+  },
+  {
+    "slug": "paddle-fee-on-10000-usd",
+    "processorId": "paddle",
+    "defaultAmount": 10000,
+    "seoTitle": "Paddle Fee on $10,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Paddle take from $10,000? Standard fee is $500.50. To receive exactly $10,000 net, you must invoice $10526.84.",
+    "h1": "Paddle Fee Calculator for $10,000 USD"
+  },
+  {
+    "slug": "wise-business-fee-calculator",
+    "processorId": "wise-business",
+    "defaultAmount": 1000,
+    "seoTitle": "Wise Business Fee & Reverse Gross-Up Calculator (2026 Rates)",
+    "seoDescription": "Calculate exact Wise Business payment processing fees (1.00% + $0.20), international surcharges, and reverse invoice gross-up amounts.",
+    "h1": "Wise Business Fee & Invoice Gross-Up Calculator"
+  },
+  {
+    "slug": "wise-business-fee-on-50-usd",
+    "processorId": "wise-business",
+    "defaultAmount": 50,
+    "seoTitle": "Wise Business Fee on $50 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Wise Business take from $50? Standard fee is $0.70. To receive exactly $50 net, you must invoice $50.71.",
+    "h1": "Wise Business Fee Calculator for $50 USD"
+  },
+  {
+    "slug": "wise-business-fee-on-100-usd",
+    "processorId": "wise-business",
+    "defaultAmount": 100,
+    "seoTitle": "Wise Business Fee on $100 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Wise Business take from $100? Standard fee is $1.20. To receive exactly $100 net, you must invoice $101.21.",
+    "h1": "Wise Business Fee Calculator for $100 USD"
+  },
+  {
+    "slug": "wise-business-fee-on-250-usd",
+    "processorId": "wise-business",
+    "defaultAmount": 250,
+    "seoTitle": "Wise Business Fee on $250 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Wise Business take from $250? Standard fee is $2.70. To receive exactly $250 net, you must invoice $252.73.",
+    "h1": "Wise Business Fee Calculator for $250 USD"
+  },
+  {
+    "slug": "wise-business-fee-on-500-usd",
+    "processorId": "wise-business",
+    "defaultAmount": 500,
+    "seoTitle": "Wise Business Fee on $500 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Wise Business take from $500? Standard fee is $5.20. To receive exactly $500 net, you must invoice $505.25.",
+    "h1": "Wise Business Fee Calculator for $500 USD"
+  },
+  {
+    "slug": "wise-business-fee-on-1000-usd",
+    "processorId": "wise-business",
+    "defaultAmount": 1000,
+    "seoTitle": "Wise Business Fee on $1,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Wise Business take from $1,000? Standard fee is $10.20. To receive exactly $1,000 net, you must invoice $1010.30.",
+    "h1": "Wise Business Fee Calculator for $1,000 USD"
+  },
+  {
+    "slug": "wise-business-fee-on-2000-usd",
+    "processorId": "wise-business",
+    "defaultAmount": 2000,
+    "seoTitle": "Wise Business Fee on $2,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Wise Business take from $2,000? Standard fee is $20.20. To receive exactly $2,000 net, you must invoice $2020.40.",
+    "h1": "Wise Business Fee Calculator for $2,000 USD"
+  },
+  {
+    "slug": "wise-business-fee-on-2500-usd",
+    "processorId": "wise-business",
+    "defaultAmount": 2500,
+    "seoTitle": "Wise Business Fee on $2,500 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Wise Business take from $2,500? Standard fee is $25.20. To receive exactly $2,500 net, you must invoice $2525.45.",
+    "h1": "Wise Business Fee Calculator for $2,500 USD"
+  },
+  {
+    "slug": "wise-business-fee-on-5000-usd",
+    "processorId": "wise-business",
+    "defaultAmount": 5000,
+    "seoTitle": "Wise Business Fee on $5,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Wise Business take from $5,000? Standard fee is $50.20. To receive exactly $5,000 net, you must invoice $5050.71.",
+    "h1": "Wise Business Fee Calculator for $5,000 USD"
+  },
+  {
+    "slug": "wise-business-fee-on-10000-usd",
+    "processorId": "wise-business",
+    "defaultAmount": 10000,
+    "seoTitle": "Wise Business Fee on $10,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Wise Business take from $10,000? Standard fee is $100.20. To receive exactly $10,000 net, you must invoice $10101.21.",
+    "h1": "Wise Business Fee Calculator for $10,000 USD"
+  },
+  {
+    "slug": "gumroad-fee-calculator",
+    "processorId": "gumroad",
+    "defaultAmount": 1000,
+    "seoTitle": "Gumroad Fee & Reverse Gross-Up Calculator (2026 Rates)",
+    "seoDescription": "Calculate exact Gumroad payment processing fees (10.00% + $0.30), international surcharges, and reverse invoice gross-up amounts.",
+    "h1": "Gumroad Fee & Invoice Gross-Up Calculator"
+  },
+  {
+    "slug": "gumroad-fee-on-50-usd",
+    "processorId": "gumroad",
+    "defaultAmount": 50,
+    "seoTitle": "Gumroad Fee on $50 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Gumroad take from $50? Standard fee is $5.30. To receive exactly $50 net, you must invoice $55.89.",
+    "h1": "Gumroad Fee Calculator for $50 USD"
+  },
+  {
+    "slug": "gumroad-fee-on-100-usd",
+    "processorId": "gumroad",
+    "defaultAmount": 100,
+    "seoTitle": "Gumroad Fee on $100 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Gumroad take from $100? Standard fee is $10.30. To receive exactly $100 net, you must invoice $111.44.",
+    "h1": "Gumroad Fee Calculator for $100 USD"
+  },
+  {
+    "slug": "gumroad-fee-on-250-usd",
+    "processorId": "gumroad",
+    "defaultAmount": 250,
+    "seoTitle": "Gumroad Fee on $250 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Gumroad take from $250? Standard fee is $25.30. To receive exactly $250 net, you must invoice $278.11.",
+    "h1": "Gumroad Fee Calculator for $250 USD"
+  },
+  {
+    "slug": "gumroad-fee-on-500-usd",
+    "processorId": "gumroad",
+    "defaultAmount": 500,
+    "seoTitle": "Gumroad Fee on $500 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Gumroad take from $500? Standard fee is $50.30. To receive exactly $500 net, you must invoice $555.89.",
+    "h1": "Gumroad Fee Calculator for $500 USD"
+  },
+  {
+    "slug": "gumroad-fee-on-1000-usd",
+    "processorId": "gumroad",
+    "defaultAmount": 1000,
+    "seoTitle": "Gumroad Fee on $1,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Gumroad take from $1,000? Standard fee is $100.30. To receive exactly $1,000 net, you must invoice $1111.44.",
+    "h1": "Gumroad Fee Calculator for $1,000 USD"
+  },
+  {
+    "slug": "gumroad-fee-on-2000-usd",
+    "processorId": "gumroad",
+    "defaultAmount": 2000,
+    "seoTitle": "Gumroad Fee on $2,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Gumroad take from $2,000? Standard fee is $200.30. To receive exactly $2,000 net, you must invoice $2222.56.",
+    "h1": "Gumroad Fee Calculator for $2,000 USD"
+  },
+  {
+    "slug": "gumroad-fee-on-2500-usd",
+    "processorId": "gumroad",
+    "defaultAmount": 2500,
+    "seoTitle": "Gumroad Fee on $2,500 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Gumroad take from $2,500? Standard fee is $250.30. To receive exactly $2,500 net, you must invoice $2778.11.",
+    "h1": "Gumroad Fee Calculator for $2,500 USD"
+  },
+  {
+    "slug": "gumroad-fee-on-5000-usd",
+    "processorId": "gumroad",
+    "defaultAmount": 5000,
+    "seoTitle": "Gumroad Fee on $5,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Gumroad take from $5,000? Standard fee is $500.30. To receive exactly $5,000 net, you must invoice $5555.89.",
+    "h1": "Gumroad Fee Calculator for $5,000 USD"
+  },
+  {
+    "slug": "gumroad-fee-on-10000-usd",
+    "processorId": "gumroad",
+    "defaultAmount": 10000,
+    "seoTitle": "Gumroad Fee on $10,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Gumroad take from $10,000? Standard fee is $1000.30. To receive exactly $10,000 net, you must invoice $11111.44.",
+    "h1": "Gumroad Fee Calculator for $10,000 USD"
+  },
+  {
+    "slug": "shopify-payments-fee-calculator",
+    "processorId": "shopify-payments",
+    "defaultAmount": 1000,
+    "seoTitle": "Shopify Payments Fee & Reverse Gross-Up Calculator (2026 Rates)",
+    "seoDescription": "Calculate exact Shopify Payments payment processing fees (2.90% + $0.30), international surcharges, and reverse invoice gross-up amounts.",
+    "h1": "Shopify Payments Fee & Invoice Gross-Up Calculator"
+  },
+  {
+    "slug": "shopify-payments-fee-on-50-usd",
+    "processorId": "shopify-payments",
+    "defaultAmount": 50,
+    "seoTitle": "Shopify Payments Fee on $50 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Shopify Payments take from $50? Standard fee is $1.75. To receive exactly $50 net, you must invoice $51.80.",
+    "h1": "Shopify Payments Fee Calculator for $50 USD"
+  },
+  {
+    "slug": "shopify-payments-fee-on-100-usd",
+    "processorId": "shopify-payments",
+    "defaultAmount": 100,
+    "seoTitle": "Shopify Payments Fee on $100 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Shopify Payments take from $100? Standard fee is $3.20. To receive exactly $100 net, you must invoice $103.30.",
+    "h1": "Shopify Payments Fee Calculator for $100 USD"
+  },
+  {
+    "slug": "shopify-payments-fee-on-250-usd",
+    "processorId": "shopify-payments",
+    "defaultAmount": 250,
+    "seoTitle": "Shopify Payments Fee on $250 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Shopify Payments take from $250? Standard fee is $7.55. To receive exactly $250 net, you must invoice $257.78.",
+    "h1": "Shopify Payments Fee Calculator for $250 USD"
+  },
+  {
+    "slug": "shopify-payments-fee-on-500-usd",
+    "processorId": "shopify-payments",
+    "defaultAmount": 500,
+    "seoTitle": "Shopify Payments Fee on $500 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Shopify Payments take from $500? Standard fee is $14.80. To receive exactly $500 net, you must invoice $515.24.",
+    "h1": "Shopify Payments Fee Calculator for $500 USD"
+  },
+  {
+    "slug": "shopify-payments-fee-on-1000-usd",
+    "processorId": "shopify-payments",
+    "defaultAmount": 1000,
+    "seoTitle": "Shopify Payments Fee on $1,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Shopify Payments take from $1,000? Standard fee is $29.30. To receive exactly $1,000 net, you must invoice $1030.18.",
+    "h1": "Shopify Payments Fee Calculator for $1,000 USD"
+  },
+  {
+    "slug": "shopify-payments-fee-on-2000-usd",
+    "processorId": "shopify-payments",
+    "defaultAmount": 2000,
+    "seoTitle": "Shopify Payments Fee on $2,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Shopify Payments take from $2,000? Standard fee is $58.30. To receive exactly $2,000 net, you must invoice $2060.04.",
+    "h1": "Shopify Payments Fee Calculator for $2,000 USD"
+  },
+  {
+    "slug": "shopify-payments-fee-on-2500-usd",
+    "processorId": "shopify-payments",
+    "defaultAmount": 2500,
+    "seoTitle": "Shopify Payments Fee on $2,500 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Shopify Payments take from $2,500? Standard fee is $72.80. To receive exactly $2,500 net, you must invoice $2574.97.",
+    "h1": "Shopify Payments Fee Calculator for $2,500 USD"
+  },
+  {
+    "slug": "shopify-payments-fee-on-5000-usd",
+    "processorId": "shopify-payments",
+    "defaultAmount": 5000,
+    "seoTitle": "Shopify Payments Fee on $5,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Shopify Payments take from $5,000? Standard fee is $145.30. To receive exactly $5,000 net, you must invoice $5149.64.",
+    "h1": "Shopify Payments Fee Calculator for $5,000 USD"
+  },
+  {
+    "slug": "shopify-payments-fee-on-10000-usd",
+    "processorId": "shopify-payments",
+    "defaultAmount": 10000,
+    "seoTitle": "Shopify Payments Fee on $10,000 USD (Net Payout & Gross-Up)",
+    "seoDescription": "How much does Shopify Payments take from $10,000? Standard fee is $290.30. To receive exactly $10,000 net, you must invoice $10298.97.",
+    "h1": "Shopify Payments Fee Calculator for $10,000 USD"
+  }
+]
